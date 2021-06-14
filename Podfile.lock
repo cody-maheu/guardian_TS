@@ -1,0 +1,42 @@
+PODS:
+  - Auth0 (1.33.0):
+    - JWTDecode
+    - SimpleKeychain
+  - Guardian (1.0.0)
+  - JWTDecode (2.6.0)
+  - Lock (2.22.2):
+    - Auth0 (~> 1.31)
+    - Lock/Classic (= 2.22.2)
+  - Lock/Classic (2.22.2):
+    - Auth0 (~> 1.31)
+  - QRCodeReader.swift (10.1.0)
+  - SimpleKeychain (0.12.2)
+
+DEPENDENCIES:
+  - Auth0 (~> 1.0)
+  - Guardian (~> 1.0.0)
+  - JWTDecode (~> 2.6)
+  - Lock (~> 2.0)
+  - QRCodeReader.swift
+  - SimpleKeychain
+
+SPEC REPOS:
+  trunk:
+    - Auth0
+    - Guardian
+    - JWTDecode
+    - Lock
+    - QRCodeReader.swift
+    - SimpleKeychain
+
+SPEC CHECKSUMS:
+  Auth0: 5faadc2446ff7a0630152a5767689d1a714ca488
+  Guardian: 72860abbac74365a50a5b6dc272ae8715df2bee2
+  JWTDecode: 480ca441ddbd5fbfb2abf17870af62f86436be58
+  Lock: 124e25f0bda16b6a2dd8660dbf2e4697bb8e4d55
+  QRCodeReader.swift: 373a389fe9a22d513c879a32a6f647c58f4ef572
+  SimpleKeychain: d6a74781e20ebac8cd89deebf593587913aeed07
+
+PODFILE CHECKSUM: afa43477e98f2b744a4aca8befba805eead67219
+
+COCOAPODS: 1.10.1
